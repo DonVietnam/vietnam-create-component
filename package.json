@@ -1,0 +1,45 @@
+{
+  "name": "vietnam-create-component",
+  "author": "DonVietnam",
+  "version": "1.0.0",
+  "description": "Command Line tool for creating components( service, controller, scheme, rest routing ) for api server with CRUD operations.",
+  "keywords": [
+    "vietnam",
+    "template",
+    "nodejs",
+    "api",
+    "server",
+    "service",
+    "rest",
+    "restful",
+    "web",
+    "router",
+    "routing",
+    "generator",
+    "JSON Schema",
+    "controller",
+    "crud"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node cli.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "fix": "eslint --fix --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanilSord/vietnam-create-component.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanilSord/vietnam-create-component/issues"
+  },
+  "homepage": "https://github.com/DanilSord/vietnam-create-component#readme",
+  "engines": {
+    "node": "^12.9 || 14 || 16"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  },
+  "bin": "cli.js"
+}
